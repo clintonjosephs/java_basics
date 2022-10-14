@@ -38,4 +38,25 @@ public class TryingMethods {
         }
         return dayOfWeek;
     }
+
+    public void printStatement(int score, String name) {
+        /**
+            This method receives an integer and 
+            prints a statement based on the 
+            value of the integer
+         */ 
+        if (score >= 90) {
+            System.out.println("You got an A");
+        } else if (score >= 80) {
+            System.out.println("You got a B");
+        } else if (score >= 70) {
+            System.out.println("You got a C");
+        } else if (score >= 60) {
+            System.out.println("You got a D");
+        } else if (score < 60 && name == "Clinton") {
+            System.out.println("You passed 😀")
+        } else {
+            System.out.println("You got an F");
+        }
+    }
 } 
