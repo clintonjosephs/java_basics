@@ -59,4 +59,16 @@ public class TryingMethods {
             System.out.println("You got an F");
         }
     }
+
+    public static int sumLessthanOneThousand() {
+        /**
+            This method sums all the numbers from 1 to 1000
+            and prints the sum
+         */ 
+        int sum = 0;
+        for (int i = 1; i < 1000; i++) {
+            sum += i;
+        }
+        return sum;
+    }
 } 
