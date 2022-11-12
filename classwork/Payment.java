@@ -44,4 +44,8 @@ public class Payment {
     public String getPhoneNumber() {
         return this.phoneNumber;
     }
+
+    private void chooseNetwork(NetworkType networkType) {
+        networkType.name();
+    }
 }
